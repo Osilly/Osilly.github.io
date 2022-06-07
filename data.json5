@@ -103,14 +103,14 @@
         {
           link: '',
           title: "First arrival picking of microseismic signals based on U-LA-GAN and Improved PSPNet (IEEE TGRS, under review)",
-          image: 'https://osillypicture.xyz/2022/05/26/6ca56f0cc4e1c.png',
+          image: 'https://osillypicture.xyz/2022/06/07/a7edcdef05885.png',
           md:
               'Will be supplemented in the future',
         },
         {
           link: '',
           title: 'test',
-          image: 'https://osillypicture.xyz/2022/05/26/6ca56f0cc4e1c.png',
+          image: 'https://osillypicture.xyz/2022/06/07/52c547063873e.png',
           md:'Will be supplemented in the future',
         }
       ],
