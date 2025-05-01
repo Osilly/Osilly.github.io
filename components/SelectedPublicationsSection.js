@@ -1,12 +1,18 @@
 import React from "react";
 import Publications from "./Publications";
-// import bibtex from "../data/bib/SelectedPublications.bib";
-import bibtex from "../data/bib/Publications.bib";
+import bibtex from "../data/bib/SelectedPublications.bib";
+// import bibtex from "../data/bib/Publications.bib";
 
 export default function SelectedPublicationsSection() {
   return (
     <section className="flex flex-col gap-3">
-      <h1 className="text-3xl font-semibold">Selected publication</h1>
+      <h1 className="text-3xl font-semibold">Selected publication [(co-)first author]</h1>
+      <Link href="/publications" className="text-neutral-500 hover:underline">
+        View all
+      </Link>
+      <p className="text-sm italic text-gray-600">
+        *: Equal contribution, †: Project leader, ‡: Corresponding author.
+      </p>
       <Publications bibtex={bibtex} />
     </section>
   );

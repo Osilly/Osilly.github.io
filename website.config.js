@@ -1,27 +1,27 @@
 export const personalInfo = {
-  name: 'Junjie Wen',
-  chineseName: '文俊杰', // 添加这一行
+  name: 'Wenxuan Huang',
+  chineseName: '黄文轩', // 添加这一行
   profilePicture: '/profile.jpg', //optional
   role: 'Master Student',
   university: ' ECNU',
   universityWebsite: 'https://www.ecnu.edu.cn/',
-  email: 'tsunami1999@163.com / 51255901019@stu.ecnu.edu.cn',
+  // email: 'osilly0616@gmail.com',
   socialMedia: [
-    { name: 'Email', url: 'tsunami1999@163.com' },
-    { name: 'Twitter', url: 'https://x.com/lesjie298776' },
+    { name: 'Email', url: 'osilly0616@gmail.com' },
+    // { name: 'Twitter', url: '' },
     {
       name: 'GitHub',
-      url: 'https://github.com/lesjie-wen',
+      url: 'https://github.com/Osilly',
     },
     // { name: 'LinkedIn', url: 'https://linkedin.com' },
-    { name: 'ORCID', url: 'https://orcid.org/my-orcid?orcid=0009-0004-1660-3268' },
-    { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=xphZoxIAAAAJ&hl=en' },
+    { name: 'ORCID', url: 'https://orcid.org/0009-0001-9656-813X' },
+    { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=6Ys6HgsAAAAJ&hl=en' },
   ],
 };
 
 export const websiteInfo = {
   title: personalInfo.name,
-  description: 'Robotics Researcher',
+  description: 'CV of Wenxuan Huang',
   // teaserImage: "/teaser.jpg",
 };
 
