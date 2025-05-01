@@ -2,7 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import NewsSection from "@/components/NewsSection";
 import ProjectSection from "@/components/ProjectSection";
 import SelectedPublicationsSection from '@/components/SelectedPublicationsSection';
-import OtherPublicationsSection from '@/components/SelectedPublicationsSection';
+import OtherPublicationsSection from '@/components/OtherPublicationsSection';
 // import select_bibtex from "@/data/bib/SelectedPublications.bib";
 // import other_bibtex from "@/data/bib/OtherPublications.bib";
 import { homepageSection } from "@/website.config";
