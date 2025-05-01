@@ -2,6 +2,7 @@ import AboutSection from "@/components/AboutSection";
 import NewsSection from "@/components/NewsSection";
 import ProjectSection from "@/components/ProjectSection";
 import SelectedPublicationsSection from '@/components/SelectedPublicationsSection';
+import OtherPublicationsSection from '@/components/SelectedPublicationsSection';
 import select_bibtex from "@/data/bib/SelectedPublications.bib";
 import other_bibtex from "@/data/bib/OtherPublications.bib";
 import { homepageSection } from "@/website.config";
@@ -12,10 +13,10 @@ export default function Page() {
       {homepageSection.AboutSection && <AboutSection />}
       {homepageSection.NewsSection && <NewsSection />}
       {homepageSection.SelectedPublicationsSection && (
-        <SelectedPublicationsSection bibtex={select_bibtex} />
+        <SelectedPublicationsSection />
       )}
       {homepageSection.OtherPublicationsSection && (
-        <SelectedPublicationsSection bibtex={other_bibtex} />
+        <OtherPublicationsSection />
       )}
       {homepageSection.ProjectSection && (
         <div className="flex flex-col gap-3">

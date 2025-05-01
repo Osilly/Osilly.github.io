@@ -14,7 +14,7 @@ export default function SelectedPublicationsSection() {
       </p>
 
       <div className="flex flex-col gap-2">
-        <h2 className="text-xl font-semibold">Current Research Interest</h2>
+        <h2 className="text-xl font-semibold"><span style={{ color: "#e53e3e" }}>Current Research Interest</span></h2>
         <Publications bibtex={interest_bibtex} />
       </div>
 

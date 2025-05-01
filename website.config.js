@@ -2,7 +2,7 @@ export const personalInfo = {
   name: 'Wenxuan Huang',
   chineseName: '黄文轩', // 添加这一行
   profilePicture: '/profile.jpg', //optional
-  role: 'Master',
+  role: 'Master Student',
   university: ' ECNU',
   universityWebsite: 'https://www.ecnu.edu.cn/',
   // email: 'osilly0616@gmail.com',
@@ -20,7 +20,7 @@ export const personalInfo = {
 };
 
 export const websiteInfo = {
-  title: 'Page of Wenxuan Huang',
+  title: personalInfo.name,
   description: 'Page of Wenxuan Huang',
   // teaserImage: "/teaser.jpg",
 };
