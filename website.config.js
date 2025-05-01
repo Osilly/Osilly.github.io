@@ -2,7 +2,7 @@ export const personalInfo = {
   name: 'Wenxuan Huang',
   chineseName: '黄文轩', // 添加这一行
   profilePicture: '/profile.jpg', //optional
-  role: 'Master Student',
+  role: 'Master',
   university: ' ECNU',
   universityWebsite: 'https://www.ecnu.edu.cn/',
   // email: 'osilly0616@gmail.com',
@@ -14,19 +14,19 @@ export const personalInfo = {
       url: 'https://github.com/Osilly',
     },
     // { name: 'LinkedIn', url: 'https://linkedin.com' },
-    { name: 'ORCID', url: 'https://orcid.org/0009-0001-9656-813X' },
+    // { name: 'ORCID', url: 'https://orcid.org/0009-0001-9656-813X' },
     { name: 'Google Scholar', url: 'https://scholar.google.com/citations?user=6Ys6HgsAAAAJ&hl=en' },
   ],
 };
 
 export const websiteInfo = {
-  title: personalInfo.name,
-  description: 'CV of Wenxuan Huang',
+  title: 'Page of Wenxuan Huang',
+  description: 'Page of Wenxuan Huang',
   // teaserImage: "/teaser.jpg",
 };
 
 export const navigations = [
-  { name: 'Projects', route: '/' },
+  { name: 'About me', route: '/' },
   { name: 'Publications', route: '/publications' },
   // { name: "News", route: "/news" },
   // { name: 'About', route: '/about' },
@@ -37,7 +37,8 @@ export const homepageSection = {
   AboutSection: true,
   NewsSection: true,
   SelectedPublicationsSection: true,
-  ProjectSection: true,
+  OtherPublicationsSection: true,
+  ProjectSection: false,
 };
 
 export const fontStyle = 'sans'; // "sans" | "serif" | "mono"
