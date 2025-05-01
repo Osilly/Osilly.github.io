@@ -90,7 +90,7 @@ export default function Publications({ bibtex }) {
               )}
               <div className="flex gap-4 mt-2">
                 {item.entryTags.website && (
-                  <div className="flex items-center"> 
+                  <div className="flex items-center">
                     <Image
                       src="/website.svg" // 确保路径正确
                       alt="My Icon"
@@ -103,29 +103,29 @@ export default function Publications({ bibtex }) {
                   </div>
                 )}
                 {item.entryTags.code && (
-                  <div className="flex items-center"> 
-                  <Image
-                    src="/code.svg" // 确保路径正确
-                    alt="My Icon"
-                    width={22} // 设置宽度
-                    height={22} // 设置高度
-                  />
-                  <a href={item.entryTags.code} className="text-black px-2 py-1 rounded text-sm underline font-bold">
-                    Code
-                  </a>
+                  <div className="flex items-center">
+                    <Image
+                      src="/code.svg" // 确保路径正确
+                      alt="My Icon"
+                      width={22} // 设置宽度
+                      height={22} // 设置高度
+                    />
+                    <a href={item.entryTags.code} className="text-black px-2 py-1 rounded text-sm underline font-bold">
+                      Code
+                    </a>
                   </div>
                 )}
                 {item.entryTags.paper && (
-                  <div className="flex items-center"> 
-                  <Image
-                    src="/paper.svg" // 确保路径正确
-                    alt="My Icon"
-                    width={20} // 设置宽度
-                    height={20} // 设置高度
-                  />
-                  <a href={item.entryTags.paper} className="text-black px-2 py-1 rounded text-sm underline font-bold">
-                    Paper
-                  </a>
+                  <div className="flex items-center">
+                    <Image
+                      src="/paper.svg" // 确保路径正确
+                      alt="My Icon"
+                      width={20} // 设置宽度
+                      height={20} // 设置高度
+                    />
+                    <a href={item.entryTags.paper} className="text-black px-2 py-1 rounded text-sm underline font-bold">
+                      Paper
+                    </a>
                   </div>
                 )}
               </div>

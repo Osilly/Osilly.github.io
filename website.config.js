@@ -27,7 +27,7 @@ export const websiteInfo = {
 
 export const navigations = [
   { name: 'About me', route: '/' },
-  { name: 'Publications', route: '/publications' },
+  { name: 'Full publications', route: '/publications' },
   // { name: "News", route: "/news" },
   // { name: 'About', route: '/about' },
   { name: 'CV', route: '/cv.pdf' },
